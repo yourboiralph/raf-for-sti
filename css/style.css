@@ -80,46 +80,16 @@ table thead .row-first td{
     padding-right: 20px;
     text-align: right;
 }
-
-.financial-assessment{
-    padding: 0;
-    display: flex;
-    border: 1px solid black;
-    width: 1285px;
-    margin-top: 0;
-}
-.left-side{
-    margin: 0;
-    border: 1px solid black;
-    width: 625px;
-}
-.right-side{
-    margin: 0;
-    border: 1px solid black;
-    width: 660px;
-}
-.left-translate-x{
-    transform: translateX(-290px);
-}
-.right-translate-x{
-    transform: translateX(-497px);
-}
-.total-balance{
-    transform: translateX(-50px);
-}
-.notice{
-    font-weight: bold;
-}
-.report{
-    margin: 0;
-    text-decoration: underline;
-}
 .header-container{
     width: 1920px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
+    margin: 0;
+}
+.logo-container{
+    margin:0;
 }
 .title-container{
     margin: 0;
@@ -128,12 +98,19 @@ table thead .row-first td{
     justify-content: center;
     align-items: center;
 }
-.upper-title, .lower-title{
+.upper-title, .lower-title, .right-subtitle-container, .upper-right-part{
     margin: 0;
 }
 .upper-title{
     font-weight: bold;
     font-size: 40px;
+}
+.lower-title{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    margin: 0;
 }
 
 
