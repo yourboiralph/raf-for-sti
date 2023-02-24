@@ -1,0 +1,117 @@
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: top;
+}
+body{
+    font-family: Roboto, Arial;
+    
+}
+.wholepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 0;
+    width: 1920px;
+    margin-top: 0;
+}
+
+table thead tr td{
+    border: 1px solid black;
+}
+table tbody td{
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.table-third tr td{
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.table-fourth tbody{
+    border-bottom: 1px solid black;
+}
+.table-fourth tbody tr td{
+    margin: 0;
+}
+.table-third tr{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+table thead .row-first td{
+    padding-right: 100px;
+}
+.student-info, .row-second, .row-fourth, .financial{
+    font-weight: bold;
+}
+.student-info td, .row-second, .row-third, .row-fourth, .row-fifth, .days, .units, .financial{
+    text-align: center;
+}
+.sy-and-term, .program, .year-level, .row-third{
+    font-style: italic;
+}
+.row-fourth, .financial{
+    letter-spacing: 2px;
+}
+.table-second, .row-fifth td, .table-body{
+    border-top: 0;
+}
+.course-description{
+    text-align: start;
+}
+.course-name, .course-number{
+    padding-right: 25px;
+}
+.table-body .row-fifth td, .financial{
+    border: 1px solid black;
+    border-top: 0;
+}
+.financial{
+    border: 1px solid black;
+}
+.total-units{
+    padding-right: 20px;
+    text-align: right;
+}
+.header-container{
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin: 0;
+}
+.logo-container{
+    margin:0;
+}
+.title-container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upper-title, .lower-title, .right-subtitle-container, .upper-right-part{
+    margin: 0;
+}
+.upper-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.lower-title{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    margin: 0;
+}
+
+
+
